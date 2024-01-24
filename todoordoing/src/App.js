@@ -1,9 +1,10 @@
-import Container from "./style/style";
+import React from "react";
+import Hello from "./Hello";
 
 function App() {
-  return (
-    Container
-  );
+  return (<div>
+    <Hello / >
+  </div>)
 }
 
 export default App;
